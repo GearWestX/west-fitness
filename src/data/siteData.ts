@@ -1,7 +1,7 @@
 export const siteData = {
   name: "West Fitness",
-  tagline: "Transform Your Body, Transform Your Life",
-  description: "Your premier destination for fitness and wellness",
+  tagline: "Transforma Tu Cuerpo, Transforma Tu Vida",
+  description: "Tu salud y cuerpo son tu mayor inversion para una vida larga",
   address: "123 Fitness Street, Health City, HC 12345",
   phone: "+1 (555) 123-4567",
   email: "info@westfitness.com",

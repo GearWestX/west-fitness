@@ -26,7 +26,7 @@ import { siteData, navigation, socialLinks, contactInfo } from '../data/siteData
 
       <!-- Quick Links -->
       <div>
-        <h4 class="text-lg font-semibold text-white mb-4">Quick Links</h4>
+        <h4 class="text-lg font-semibold text-white mb-4">Enlaces Rápidos</h4>
         <ul class="space-y-2">
           {navigation.map((item) => (
             <li>
@@ -43,7 +43,7 @@ import { siteData, navigation, socialLinks, contactInfo } from '../data/siteData
 
       <!-- Contact Info -->
       <div>
-        <h4 class="text-lg font-semibold text-white mb-4">Contact Us</h4>
+        <h4 class="text-lg font-semibold text-white mb-4">Contáctanos</h4>
         <ul class="space-y-4 text-gray-400">
           {contactInfo.slice(0, 3).map((info) => (
             <li class="flex items-start gap-3">
@@ -62,26 +62,26 @@ import { siteData, navigation, socialLinks, contactInfo } from '../data/siteData
 
       <!-- Newsletter -->
       <div>
-        <h4 class="text-lg font-semibold text-white mb-4">Newsletter</h4>
-        <p class="text-gray-400 mb-4">Subscribe to get fitness tips and updates</p>
+        <h4 class="text-lg font-semibold text-white mb-4">Boletín</h4>
+        <p class="text-gray-400 mb-4">Suscríbete para recibir consejos de fitness y actualizaciones</p>
         <form class="flex flex-col space-y-2">
           <input
             type="email"
-            placeholder="Your email"
+            placeholder="Tu correo"
             class="px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-primary"
           />
           <button
             type="submit"
             class="bg-primary hover:bg-primary-hover text-white px-4 py-2 rounded-lg font-semibold transition-colors"
           >
-            Subscribe
+            Suscribirse
           </button>
         </form>
       </div>
     </div>
 
     <div class="border-t border-slate-800 mt-8 pt-8 text-center text-gray-400">
-      <p>&copy; {new Date().getFullYear()} {siteData.name}. All rights reserved.</p>
+      <p>&copy; {new Date().getFullYear()} {siteData.name}. Todos los derechos reservados.</p>
     </div>
   </div>
 </footer>

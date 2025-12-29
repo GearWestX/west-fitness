@@ -181,7 +181,7 @@ export const testimonials = [
   {
     name: "Johan Cantero",
     role: "Cliente por 2 años",
-    content: "Es sorprendente la rapidez con la que puedes obtener resultados con unos simples ajustes en mi dieta y programa de ejercicios.",
+    content: "Es sorprendente la rapidez con la que puedes obtener resultados con unos simples ajustes en la dieta y programa de ejercicios.",
     rating: 5,
   },
   {
@@ -237,8 +237,8 @@ export const faqs = [
     answer: "No. Nuestros programas se adaptan a principiantes, intermedios, avanzados, atletas y fisicoculturistas.",
   },
   {
-    question: "¿Tengo poco tiempo para entrenar o hacer dieta?",
-    answer: "Sí. Con 30 a 45 minutos, entrenando 2 a 3 veces por semana, y una dieta ajustada a tu tiempo y presupuesto, podemos lograr grandes resultados.",
+    question: "¿Y si Tengo poco tiempo para entrenar o hacer dieta?",
+    answer: "Con 30 a 45 minutos, entrenando 2 a 3 veces por semana, y una dieta ajustada a tu tiempo y presupuesto, podemos lograr grandes resultados.",
   },
   {
     question: "¿Debo ser fitness, atleta o fisicoculturista?",
